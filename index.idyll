@@ -2,15 +2,15 @@
 
 [Header
   fullWidth:true
-  title:"HCI Group 23 Interactive Report"
-  subtitle:"Welcome to Idyll. Open index.idyll to start writing"
+  title:"Employee Management System"
+  subtitle:"HCI Group 23 Interactive Report"
   author:"Group 23"
   authorLink:"https://github.com/uwohci23/group-23"
   date:`(new Date()).toDateString()`
   background:"#222222"
   color:"#ffffff"
    /]
-[div className:'div_padding']
+[div]
 	# Executive Summary
 	[p]Test Text[/p]
 	# Navigation Map
@@ -22,8 +22,11 @@
 	#Improvement Recomendations
 	[p]Test Text[/p] 
 	#Github Repositories
-	[a href:'https://github.com/uwohci23/group-23/']Employee Management System Repository[/a]
-	[br /]
-	[a href:'https://github.com/GermanBeast7/GermanBeast7.github.io/']Interactive Webpage[/a]
+	[div className:'div_padding']
+		[ul]
+			[li][a href:'https://github.com/uwohci23/group-23/']Employee Management System Repository[/a][/li]
+			[li][a href:'https://github.com/GermanBeast7/GermanBeast7.github.io/']Interactive Webpage[/a][/li]
+		[/ul]
+	[/div]
 [/div]
 
