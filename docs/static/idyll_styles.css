@@ -1297,3 +1297,15 @@ img {
 .div_padding	{
 	padding: 5px 5px 20px;
 }
+
+.button_left	{
+	float: left;
+}
+
+.button_right	{
+	float: right;
+}
+
+.align_center	{
+	text-align: center;
+}
