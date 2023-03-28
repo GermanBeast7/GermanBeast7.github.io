@@ -127,8 +127,8 @@
 	#Github Repositories
 	[div className:'div_padding']
 		[ul]
-			[li][a href:'https://github.com/uwohci23/group-23/']Employee Management System Repository[/a][/li]
-			[li][a href:'https://github.com/GermanBeast7/GermanBeast7.github.io/']Interactive Webpage[/a][/li]
+			[li][a href:'https://github.com/uwohci23/group-23/'] Employee Management System Repository[/a][/li]
+			[li][a href:'https://github.com/GermanBeast7/GermanBeast7.github.io/'] Interactive Webpage[/a][/li]
 		[/ul]
 	[/div]
 [/div]
