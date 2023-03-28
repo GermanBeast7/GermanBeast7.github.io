@@ -1300,12 +1300,24 @@ img {
 
 .button_left	{
 	float: left;
+    margin-left: auto;
 }
 
 .button_right	{
 	float: right;
+	margin-right: auto;
 }
 
 .align_center	{
 	text-align: center;
+	margin: auto;
+}
+
+.buttons	{
+	display: inline-flex;
+    width: 100%;
+}
+
+.design_principles_background	{
+	background-color: aliceblue;
 }

@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "type": "module",
-  "output": "docs",
+  
   "idyll": {
     "theme": "idyll",
     "layout": "centered",
     "css": "styles.css",
-    "authorView": false
+    "authorView": false,
+	"output": "docs" 
   },
   "dependencies": {
     "@babel/core": "^7.21.3",
