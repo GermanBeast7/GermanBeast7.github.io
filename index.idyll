@@ -12,7 +12,7 @@
    /]
 [div]
 	[Aside]
-	[Fixed]
+	
 		[SVG src:"static/images/github-mark.svg" /]
 		#Github Repositories
 		
@@ -22,7 +22,7 @@
 					[li][a href:'https://github.com/GermanBeast7/GermanBeast7.github.io/'] Interactive Webpage[/a][/li]
 				[/ul]
 			[/div]
-		[/Fixed]
+		
 	[/Aside]
 	# Executive Summary
 	[p]Likely Have some interactive part. Currently just same executive summary as design report. Need to probably edit in regards to the feedback and any updated design[/p]
