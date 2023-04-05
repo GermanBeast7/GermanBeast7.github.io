@@ -52,7 +52,9 @@ all in the same order. This way if an employee is promoted to manager or sysadmi
 they are used to will still be in the same spot reducing the need to re-learn the interface. All
 functions will include a written description on their topic to make it clearly visible what can be
 done on each tab. The shared functions also include icons so that they can easily be used by
-employees who may not understand the written function description. These icons such as a
+employees who may not understand the written function description. The original system responded with mostly system descriptive errors 
+and the system would stop when an error occured causing confusion of users and feedback was not useful for the user this was bad feedback design. 
+The redesign returns better feedback such as errors and the results of system actions to the user to help bridge the gulf of evaluation. These icons such as a
 magnifying glass for searching other employees will make use of the users familiarity with what
 can be such as a magnifying glass can be used to search for something in the physical world and
 in many interfaces symbolizes a search function. Tabs will also highlight color while the user is
@@ -243,9 +245,9 @@ interface intuitive to use with minimal or no training and just pre-existing kno
 	[/Conditional]
 	
 	# Heuristic Evaluation
-	[p]Test Text[/p]
+	[p]Give our heuristic evaluations, likely list design issues with original system along with our heuristic evaluations for the redesigned system[/p]
 	
 	#Improvement Recomendations
-	[p]Test Text[/p] 
+	[p]Use our Heuristic Evaluations to thoughtfully recommend how the system can be improved[/p] 
 [/div]
 
