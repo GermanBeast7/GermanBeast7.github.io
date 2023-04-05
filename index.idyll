@@ -25,11 +25,13 @@
 		
 	[/Aside]
 	# Executive Summary
-	[p]Likely Have some interactive part. Currently just same executive summary as design report. Need to probably edit in regards to the feedback and any updated design[/p]
+	[p]Likely Have some interactive part. Currently same as executive summary as design report with some changes. Need to continue to edit in regards to the feedback and any updated design[/p]
 	
 	[p className:'text-justification']
 			The application we are designing an interface for is a command line based employee
-management system. This system has basic functionality such as hour tracking and user
+management system. This original application aligned with the communication basic metaphor and catered to advanced users 
+that were somewhat familiar with the system and was difficult to complete tasks and input or change data.
+Our redesign This system has basic functionality such as hour tracking and user
 management for all employees along with higher level management functions for sysadmins which
 can add new users, teams, and projects along with managers who have unique functions to manage
 their team such as adding and removing team members, and editing team member work hours such
