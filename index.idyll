@@ -14,7 +14,7 @@
 	[Aside]
 	
 		[SVG src:"static/images/github-mark.svg" /]
-		#Github Repositories
+		##Github Repositories
 		
 			[div className:'div_padding']
 				[ul]
@@ -22,8 +22,12 @@
 					[li][a href:'https://github.com/GermanBeast7/GermanBeast7.github.io/'] Interactive Webpage[/a][/li]
 				[/ul]
 			[/div]
-		#Final Implementation
-[a href:'http://empmngg23.duckdns.org:5000/user_login'] Project Final Implementation[/a]
+		##Final Implementation 
+[div className:'div_padding']
+[ul]
+[li][a href:'http://empmngg23.duckdns.org:5000/user_login'] Final System Implementation[/a][/li]
+[/ul]
+[/div]
 		
 	[/Aside]
 # Report Content
@@ -61,8 +65,6 @@
 
 [Conditional if:ExecutiveSummary]
 	# Executive Summary
-	[p]Likely Have some interactive part. Currently same executive summary as design report with some changes. Need to continue to edit in regards to the feedback and any updated design[/p]
-	
 	[p className:'text-justification']
 			The application we are designing an interface for is a command line based employee
 management system. This original application aligned with the communication basic metaphor and catered to advanced users 
@@ -198,8 +200,8 @@ interface intuitive to use with minimal or no training and just pre-existing kno
 		
 	[Conditional if:`displayedPrinciple == 6`]
 		[div className:'design_principles_background']
-			[i]Fitt’s Law: [/i]
-			[p]Fitt’s law was considered in the design of the system and used for the menu selection buttons of the system. Applying this principle for the menu was to put it on the left edge of the screen to create an effect of larger size by the left side of the button having an infinite edge. The effect of this and the large vertical size on the menu options decreases the time to move the cursor over the menu buttons because of size reducing time to move over the button compared to if the button was not on the edge or if the size was smaller. [/p]
+			[i]Fitts’ Law: [/i]
+			[p]Fitts’ law was considered in the design of the system and used for the menu selection buttons of the system. Applying this principle for the menu was to put it on the left edge of the screen to create an effect of larger size by the left side of the button having an infinite edge. The effect of this and the large vertical size on the menu options decreases the time to move the cursor over the menu buttons because of size reducing time to move over the button compared to if the button was not on the edge or if the size was smaller. [/p]
 		[/div]
 	[/Conditional]
 		
@@ -269,7 +271,7 @@ interface intuitive to use with minimal or no training and just pre-existing kno
 		
 	[Conditional if:`displayedPrinciple == 16`]
 		[div className:'design_principles_background']
-			[i][/i]
+			[i]Learnability[/i]
 			[p] 16 Principle and text, should be able to have any html elements or Idyll components[/p]
 		[/div]
 	[/Conditional]
