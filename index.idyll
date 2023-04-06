@@ -66,82 +66,70 @@
 [Conditional if:ExecutiveSummary]
 	# Executive Summary
 	[p className:'text-justification']
-			The application we are designing an interface for is a command line based employee
+			The application we are redesigning the interface for is a command line based employee
 management system. This original application aligned with the communication basic metaphor and catered to advanced users 
-that were somewhat familiar with the system making the system to use for the completetion tasks.
-Our redesign This system has basic functionality such as hour tracking and user
-management for all employees along with higher level management functions for sysadmins which
+that were familiar with the system making the system complex to use for the completion of tasks.
+Our redesign of this system has basic functionality such as hour tracking and user
+management for all employees along with higher level management functions for system admins which
 can add new users, teams, and projects along with managers who have unique functions to manage
 their team such as adding and removing team members, and editing team member work hours such
-as for cases such as employee absence. Our goal with the design of this system is to create a web
-based user interface that is intuitive to use and therefore can be used without much previous
+as for cases such as employee absence. Our goal with the design of this system is to create a web-based user interface that is intuitive to use and therefore can be used without much previous
 instruction which is important in cases where such an interface is rolled out to a company with
-many employees. To make our interface this intuitive we will be making use of the users existing
+many employees. To make our interface this intuitive we will be making use of the user’s existing
 knowledge of similar systems and the outside world to make features visible and at a glance
 understandable to minimize the gulfs of execution and evaluation. Starting at the login page we
-will use the users existing understanding of how to use a login page by making it similar to most
+will use the user's existing understanding of how to use a login page by making it similar to most
 common login pages. From there, the user is directed to a screen with their functionality on the
-left hand side. Left side function selection is another common aspect of existing web interfaces so
-we are making use of the users frames for this as well. This increases the visibility of the function
-selection since people will be used to looking there to find function selection. Since there are three
+left-hand side. Left side function selection is another common aspect of existing web interfaces so
+we are making use of the user’s mental models for this as well. This increases the visibility of the function
+selection since people will be used to looking there to find function selection. This is much more simple than the original design where all the functions are just listed at the top in small cluttered font making functions difficult to read. Since there are three
 types of users, each with some shared and some unique functions, to allow easy adaption to
-employee promotions, we made the shared functions all at the top of the left hand selection, and
-all in the same order. This way if an employee is promoted to manager or sysadmin, the functions
+employee promotions, we made the shared functions all at the top of the left-hand selection, and
+all in the same order. This way if an employee is promoted to manager or system admin, the functions
 they are used to will still be in the same spot reducing the need to re-learn the interface. All
-functions will include a written description on their topic to make it clearly visible what can be
+functions will include a written description of their topic to make it clearly visible what can be
 done on each tab. The shared functions also include icons so that they can easily be used by
 employees who may not understand the written function description. The original system responded with mostly system descriptive errors 
-and the system would stop when an error occurred causing confusion of users and feedback was not useful for the user this was bad feedback design. 
-The redesign returns better feedback such as errors and the results of system actions to the user to help bridge the gulf of evaluation. These icons such as a
-magnifying glass for searching other employees will make use of the users familiarity with what
-can be such as a magnifying glass can be used to search for something in the physical world and
-in many interfaces symbolizes a search function. Tabs will also highlight color while the user is
-within that tab so the user can be sure they are in the tab they mean to be in. We also made use of
-combining similar functions under one tab to avoid over cluttering the navigation tab reducing the
+and the system would stop when an error occurred causing confusion among users who were not familiar with the inner workings of the system requiring advanced knowledge for simple mistakes. 
+The redesign returns better feedback for errors and the results of system actions to help bridge the gulf of evaluation. For the navigation bar, will make use of the user’s familiarity with real world objects as metaphors to help with navigation using the icons such as a
+magnifying glass for searching for employees which can be used to search for something in the physical world and
+in many interfaces symbolizing a search function. We also made use of
+combining similar functions under one tab to avoid over-cluttering the navigation tab reducing the
 likelihood of accidental clicks on the wrong tab such as by combining all team management
 features of the manager under a team management tab instead of having one tab for each feature.
-Within the features we also make use of the users frames along with the other design principles
-such as affordances and transfer to make it clear what results will occur from the users actions. For
+Within the features, we also make use of the user’s frames along with the other design principles
+such as affordances and transfer to make it clear what results will occur from the user’s actions. For
 example in the managers UI under the team management tab which combines the add employee
-to team, remove employee from team, and set team project functions, each function has hints to
+to team, remove an employee from the team, and set team project functions, each function has hints to
 make results of actions more clear to the user. To start off, knowing the user just selected the tab
 on the left side, we set the less destructive functions closer to the left side which is to add
 employees. This should reduce any accidental removals of team members since the user would
-have to be more intentional about going to the other side of the screen for that functionality. For
-both the add employee and remove employee, as the employee ID is being typed, the text box will
-have a drop down autocomplete with relevant valid ID’s. Through this, if the user gets to the end
-of the ID and there are no ID’s auto completing it gives a clear hint that the ID entered will not be
-a valid value and the text can be highlighted red. For the team project editing portion, the box can
-start off green with the current project value, and then turn yellow once edited if the new project
-ID is valid indicating to the user to slow down and check their work before submitting to avoid
-errors or turn red if the new ID is invalid indicating that the user has to stop and fix something
-with the change before submitting. This highlighting will provide some transference to the user
-with how stop lights work, with green meaning you are good to go or nothing has changed, yellow
-meaning you can go but be careful as a change is about to occur, and red meaning stop and don’t
-proceed with the change indicating something isn’t valid. Using the design principles for all
+have to be more intentional about going to the other side of the screen for that functionality. For all inputs, they will highlight red while being filled out until they are in the properly formatted structure. This highlighting will provide some transference to the user
+with how stop lights work, with green meaning you are good to go or nothing has changed and red meaning stop and don’t
+proceed with the change indicating something isn’t valid. The original design did not provide any feedback to the user on their current input, only on 1 input if there was an error after submitting meaning the user would have to redo the entire function and even if they correct the value highlighted in the error, if there were other invalid values that wouldn’t be revealed until after the first error is fixed. There was also no confirmation so accidentally typing the wrong input could cause a lot of work to be required to undo the change. Using the design principles for all
 features such as this with high visibility, clear affordances, and transference, we will make our
-interface intuitive to use with minimal or no training and just pre-existing knowledge. 
+interface intuitive to use with minimal or no training and just pre-existing knowledge. Through our design, the heuristics were well followed with the exception of two being flexibility and documentation which could be improved in further iterations. Overall, this redesign significantly improved on many of the shortcomings of the original command line design making for a much better user experience for both beginners and advanced users.
 	[/p]
 [/Conditional]	
 [Conditional if:NavigationMap]	
 	# Navigation Map
-	### Map Pieces and Short Description
-	[p]Maybe include stepper with pictures and explanation text on each, put graphics for 2 in but giving odd parsing error[/p]
-	
-	### Full Map
-	[p]Tried to add custom component with React to allow zoom, Idyll supports but couldn't quite get in correct form to use component.
-	May need to still update depending on our final redesign and what we get. Thoughts to make easier to read in browser possbily make sections
-	that can still tell what is going on. Or zoom of some kind.
-	[/p]
-	[Graphic]
-		[img src: "static/images/group23-storyboard.png" /]
-	[/Graphic]
+	[div
+    	style:`{
+      	position: 'relative',
+     	 overflow: 'hidden'
+   	 }`
+ 	 ]
+		[ReactImagePanZoomRotate image:"static/images/group23-storyboard.png"/]
+[/div]
+
 [/Conditional]
 [Conditional if:DesignPrinciples]
 	# Design Principles
 	[var name:"displayedPrinciple" value:1 /]
 	[var name:"totalPrinciples" value:20 /]
-	
+	[div className:'align_center']
+[Range value:displayedPrinciple min:1 max:`totalPrinciples` /]
+[/div]
 	[div className:'buttons']
 		[Conditional if:`displayedPrinciple > 1`]
 			[div className:'button_left']
@@ -229,7 +217,7 @@ interface intuitive to use with minimal or no training and just pre-existing kno
 	[Conditional if:`displayedPrinciple == 10`]
 		[div className:'design_principles_background']
 [i]Metaphors: [/i]
-			[p]The original design was text only so it did not make use of any metaphors however the re-design makes use of metaphors to aid in navigation and some functions where format can be confusing. The system uses metaphors to help with navigating by having icons that match the user's mental model of a real world object’s function to the virtual function. Examples include a magnifying glass for search and a calendar for reporting work hours. This enables collapsing the function descriptions and makes it easy to navigate using just the icons alone and also helps the user understand the function's purpose. Another metaphor is the calendar for date inputs which mimics manipulating a physical calendar. This is useful as date formats can be confusing to users since ordering and length of each value varies across systems and regionally so having this manipulating metaphor allows the user to easily select the date as they would with a physical calendar and that will keep the date format consistent and easy to follow for new users who may be used to a different date format than implemented in the system. Text is also highlighted either green or red depending on if it follows a valid format for submission with green being valid and red being invalid as a metaphor for traffic lights which use the same colors to indicate go or stop.[/p]
+			[p]The original design was text only so it did not make use of any metaphors however the re-design makes use of metaphors to aid in navigation and some functions where format can be confusing. The system uses metaphors to help with navigating by having icons that match the user's mental model of a real world object’s function to the virtual function. Examples include a magnifying glass for search and a calendar for reporting work hours. This enables collapsing the function descriptions and makes it easy to navigate using just the icons alone and also helps the user understand the function's purpose. Another metaphor is the calendar for date inputs which mimics manipulating a physical calendar. This is useful as date formats can be confusing to users since ordering and length of each value varies across systems and regionally so having this manipulating metaphor allows the user to easily select the date as they would with a physical calendar and that will keep the date format consistent and easy to follow for new users who may be used to a different date format than implemented in the system. Text is also highlighted either green or red depending on if it follows a valid format for submission with green being valid and red being invalid as a metaphor for traffic lights which use the same colours to indicate go or stop.[/p]
 		[/div]
 	[/Conditional]
 		
@@ -251,7 +239,7 @@ interface intuitive to use with minimal or no training and just pre-existing kno
 	[Conditional if:`displayedPrinciple == 13`]
 		[div className:'design_principles_background']
 [i]Gestalt Laws of Grouping:[/i]
-			[p] The design uses color similarity and grouping to separate the interface into two perceptual sections. One section being the navigation, and one section being the function operation. The principle of similarity was used by having all the navigation tabs in the same color text, same color background, and same size icons which is a different text and background color than the function operation which groups them visibly into separate entities. We also used the principle of grouping by putting the tabs close together while the function operation functions are more spread apart which also differentiates them and makes them perceptually appear as separate from the navigation tab. [/p]
+			[p] The design uses colour similarity and grouping to separate the interface into two perceptual sections. One section being the navigation, and one section being the function operation. The principle of similarity was used by having all the navigation tabs in the same colour text, same colour background, and same size icons which is a different text and background colour than the function operation which groups them visibly into separate entities. We also used the principle of grouping by putting the tabs close together while the function operation functions are more spread apart which also differentiates them and makes them perceptually appear as separate from the navigation tab. [/p]
 		[/div]
 	[/Conditional]
 		
@@ -271,42 +259,89 @@ interface intuitive to use with minimal or no training and just pre-existing kno
 		
 	[Conditional if:`displayedPrinciple == 16`]
 		[div className:'design_principles_background']
-			[i]Learnability[/i]
-			[p] 16 Principle and text, should be able to have any html elements or Idyll components[/p]
+			[i]Learnability:[/i]
+			[p]The system was designed to be very simple to use. Since it was designed for companies which could have many employees which they don’t want to pay hours to have to learn how to use a program, the system takes advantage of users knowledge along with simple clear design so that at a glance it can be clear to the user how the system works making it very easy to learn to be used proficiently without any previous instruction. [/p]
 		[/div]
 	[/Conditional]
 		
 	[Conditional if:`displayedPrinciple == 17`]
 		[div className:'design_principles_background']
-			[p] 17 Principle and text, should be able to have any html elements or Idyll components[/p]
+			[i]Discoverability:[/i]
+			[p]Discoverability in interaction design means that the user must discover what features are included in the UI within a microsecond. In our design, all features are displayed in the left side bar, and all feature icons are accompanied by a text label. This allows users to use our system without any road blocks.[/p]
 		[/div]
 	[/Conditional]
 		
 	[Conditional if:`displayedPrinciple == 18`]
 		[div className:'design_principles_background']
-			[p] 18 Principle and text, should be able to have any html elements or Idyll components[/p]
+			[i]Simplicity:[/i]
+			[p] For our web-based management system, we did our best to make it look simple. This makes it very easy for users to find the features they need through the use of high contrast between backgrounds and important information along with keeping the page well spread out to avoid clutter causing confusion. Of course, we still use shading, colouring, and formatting to make it aesthetically. We successfully get the right balance between aesthetic appeal and the optimal amount of information in each page. [/p]
 		[/div]
 	[/Conditional]
 		
 	[Conditional if:`displayedPrinciple == 19`]
 		[div className:'design_principles_background']
-			[p] 19 Principle and text, should be able to have any html elements or Idyll components[/p]
+			[i] Navigability:[/i]
+			[p]It is quite obvious in our system, since all available features are neatly arranged from top to bottom and listed in the sidebar. When the mouse cursor approaches a specified function, the area around that function deepens in colour. This prompts the user to click on that area. This allows the user to move smoothly through them to reach the option they want.[/p]
 		[/div]
 	[/Conditional]
 		
 	[Conditional if:`displayedPrinciple == 20`]
 		[div className:'design_principles_background']
-			[p] 20 Principle and text, should be able to have any html elements or Idyll components[/p]
+			[i]Findability:[/i]
+			[p]Findability refers to the degree to which a particular object is easy to discover. We use a calendar-like date picker in our project.In this selector, dates that are far away from today can be easily selected. On the contrary, when we select a date that is far from today, we can also easily return to the current date with the "Today" button.[/p]
 		[/div]
 	[/Conditional]
 [/Conditional]	
 [Conditional if:HeuristicEvaluation]
 	# Heuristic Evaluation
-	[p]Give our heuristic evaluations, heuristic evaluations for the redesigned system[/p]
+[ol]	
+
+[li]Visibility of System Status[/li]
+[p]
+With red asterisks to show what information is required, a real-time changing input font colour to indicate whether the user's input is legitimate, and an informative popup window that appears after submitting, our system keeps the user informed, and provides appropriate feedback at all times. In conclusion, our system has a high visibility of system status
+[/p]
+[li]Match Between the System and the Real World[/li]
+[p]
+Our system speaks the users’ languages, our system is designed mostly for regular users with no background of professional IT or database knowledge. Since most of the information users get is whether their operation was executed successfully or not, and this is largely determined by whether the database execution returned an error, we carefully designed the user friendly popup messages to map these database returns by containing only words, phrases, and concepts familiar to the users, and eliminating any technical jargons and return codes. When  users try to enter illegal inputs, their input font will first turn red, when users try to submit such inputs, the system will print a red message box and block the submit, when users try to submit a legal but meaningless command, the popup window will provide a pop-up window with corresponding information. In conclusion, there’s a good match between the system and the real world, and information always appears in a natural and logical order.
+[/p]
+[li]User Control & Freedom [/li]
+[p]
+Our system does not provide a direct undo or redo operation. However, each action users do on our system can be reverted or modified by other actions. For example, If users update personal information by mistake, they can always redo/undo that by doing the same action again with the old values. If users reported wrong work hours in a day, the users’ manager can view the changes and correct them. So in some cases, users may not be able to exit an unwanted state without other users with higher authority. As a result, our system provides limited User control and freedom.
+[/p]
+[li]Consistency and Standards [/li]
+[p]
+The actions in our system are clearly separated in the sidebar by different names and Icons, when users are doing an action, other actions are hidden until they click the tab on the sidebar. One action can only be done in one specific way. So there’s little chance users think two actions mean the same thing, there’s high consistency and standards in our system.
+[/p]
+[li]Error Prevention [/li]
+[p]
+The system makes use of error prevention in multiple ways. For complex inputs such as dates, we use a calendar selector which will fill in the date for the user which helps with confusing the many different date formats. Another way it performs error prevention is through text highlighting. Values highlight in red if they are not valid such as if it must be 8 characters and is less or more, it will highlight in red but if it is 8 valid characters it will highlight in green. This helps the user know that their input is valid or invalid before they have submitted it. If they still submit invalid inputs, the value is highlighted with a simple error message preventing it from occurring again.
+[/p]
+[li]Recognition vs. Recall in User Interfaces[/li] 
+[p]
+The system minimizes the need for the user to recall information by keeping all functionality visible and not hiding or surprising the user with inputs. The old system the user would not know the inputs needed for a function until they were to be entered which meant they either had to remember or they had to constantly go between the system and their info however the redesign keeps all inputs in the open which allows the user to know what inputs are needed as soon as they are on the page. It also has all functionality visible on the side navigation bar so no need to remember commands to call functions and no functions where are hidden behind multiple menus to get to so there is low cognitive load with very little to remember about the system in order to use it effectively. 
+[/p]
+[li]Flexibility and Efficiency of Use[/li]
+[p]
+The system has some flexibility for experienced users in the form of the collapsable navigation bar which keeps only the icons so experienced users will still know what function to select while giving more screen real estate to the actual function inputs and results. However there is not much flexibility besides that such as there are not any custom colour schemes for colour blind users and such.
+[/p]
+[li]Aesthetic and Minimalist Design [/li]
+[p]
+In our system, users get information from the sidebar and content texts, font colour, red text box blocking submits and popup windows. All text areas contain sufficient and brief information designed to be user-friendly. Our system presents little to no extra information that users do not need, so our system is highly aesthetic and minimalist designed.
+[/p]
+[li]Help Users Recognize, Diagnose and Recover from Errors[/li]
+[p]
+The system returns error messages which properly highlight what caused the error to occur which helps the user correct the values when they re-do the function. For inputs which are length limited or must be numbers only, if the input does not match this it will give a message which explains the issue with their input so they can correct it. If the values are valid but there is another issue with submission such as trying to set an inactive employee to inactive it provides an explanation stating why the function did not run properly so the user can decide how to proceed from there. 
+[/p]
+[li]Help & Documentation[/li]
+[p]
+The system was designed to be very simple to use and as such we did not include any documentation. It should be self-explanatory how to use the system but a simple help tab with some basic instructions could have been helpful to improve the learning process.
+[/p]
+[/ol]
 [/Conditional]
 [Conditional if:ImprovementRecommendations]
 	# Improvement Recommendations
-	[p]Use our Heuristic Evaluations to thoughtfully recommend how the system can be improved[/p] 
+	[p]In light of our heuristic evaluation, there are some improvements which can be done to the system. The main two heuristics which fell short were Flexibility and Efficiency of Use and Help and Documentation. For Flexibility and Efficiency of Use our interface was not very customizable. Two simple improvements that can be done would be regarding the colour scheme being fixed and navigation bar ordering being fixed. For the colour scheme, we could allow the user to customize their colouring with presets for different types of colour blindness which would make the interface more accessible to colour-blind people if their colour blindness causes the contrast in the current default colour scheme to be low making it difficult to use. We can also allow the user to reorder the navigation bar so that they can group functions as they like or move commonly used functions closer to the top, based on their use case. This can make it so that finding and selecting functions is more efficient as it will be to their preferences. The other heuristic of help and documentation could be improved by having a navigation tab for help where a small wiki could be written, explaining basics about operating the system. Question marks near inputs could also be helpful for explaining input value meaning and expected format such as saying 4 number code or alphanumeric up to 20 characters. This could make the system easier to learn for new users and also be nice for users who forget or are confused why the input is highlighting red when they expect it to be valid.
+[/p] 
 [/Conditional]
 [/div]
 

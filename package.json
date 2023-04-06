@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "type": "module",
-  
   "idyll": {
     "theme": "idyll",
     "layout": "centered",
     "css": "styles.css",
     "authorView": false,
-	"output": "docs" 
+    "output": "docs"
   },
   "dependencies": {
     "@babel/core": "^7.21.3",
@@ -18,7 +17,8 @@
     "d3-selection": "^2.0.0",
     "d3-transition": "^2.0.0",
     "idyll": "6.0.0-alpha.4",
-    "idyll-d3-component": "^2.0.0"
+    "idyll-d3-component": "^2.0.0",
+    "react-image-pan-zoom-rotate": "^1.6.0"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0"
